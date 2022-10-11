@@ -1,0 +1,1 @@
+ALTER TABLE `doctor_subscription` ADD `booked_appointment` INT NOT NULL DEFAULT '0' AFTER `payment_status`;
